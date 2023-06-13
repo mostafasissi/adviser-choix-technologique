@@ -1,0 +1,189 @@
+[
+    {
+        "Framework": "React",
+        "Web": "Oui",
+        "Mobile": "Non",
+        "Desktop": "Non",
+        "Taille du projet": "Grande",
+        "Back/Front": "Front",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Moyenne",
+        "Haute disponibilité": "Oui"
+    },
+    {
+        "Framework": "Angular",
+        "Web": "Oui",
+        "Mobile": "Non",
+        "Desktop": "Non",
+        "Taille du projet": "Grande",
+        "Back/Front": "Front",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Élevée",
+        "Haute disponibilité": "Oui"
+    },
+    {
+        "Framework": "Vue.js",
+        "Web": "Oui",
+        "Mobile": "Non",
+        "Desktop": "Non",
+        "Taille du projet": "Moyenne",
+        "Back/Front": "Front",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Moyenne",
+        "Haute disponibilité": "Oui"
+    },
+    {
+        "Framework": "Django",
+        "Web": "Oui",
+        "Mobile": "Oui",
+        "Desktop": "Non",
+        "Taille du projet": "Moyenne",
+        "Back/Front": "Back",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Élevée",
+        "Haute disponibilité": "Oui"
+    },
+    {
+        "Framework": "ASP.NET",
+        "Web": "Oui",
+        "Mobile": "Oui",
+        "Desktop": "Non",
+        "Taille du projet": "Grande",
+        "Back/Front": "Back",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Élevée",
+        "Haute disponibilité": "Oui"
+    },
+    {
+        "Framework": "Laravel",
+        "Web": "Oui",
+        "Mobile": "Oui",
+        "Desktop": "Non",
+        "Taille du projet": "Petite",
+        "Back/Front": "Back",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Moyenne",
+        "Haute disponibilité": "Oui"
+    },
+    {
+        "Framework": "React Native",
+        "Web": "Non",
+        "Mobile": "Oui",
+        "Desktop": "Non",
+        "Taille du projet": "Moyenne",
+        "Back/Front": "Front",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Moyenne",
+        "Haute disponibilité": "Oui"
+    },
+    {
+        "Framework": "Flutter",
+        "Web": "Non",
+        "Mobile": "Oui",
+        "Desktop": "Oui",
+        "Taille du projet": "Moyenne",
+        "Back/Front": "Front",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Élevée",
+        "Haute disponibilité": "Oui"
+    },
+    {
+        "Framework": "Ionic",
+        "Web": "Non",
+        "Mobile": "Oui",
+        "Desktop": "Non",
+        "Taille du projet": "Moyenne",
+        "Back/Front": "Front",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Moyenne",
+        "Haute disponibilité": "Oui"
+    },
+    {
+        "Framework": "Express.js",
+        "Web": "Oui",
+        "Mobile": "Oui",
+        "Desktop": "Non",
+        "Taille du projet": "Petite",
+        "Back/Front": "Back",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Élevée",
+        "Haute disponibilité": "Oui"
+    },
+    {
+        "Framework": "Spring",
+        "Web": "Oui",
+        "Mobile": "Non",
+        "Desktop": "Non",
+        "Taille du projet": "Grande",
+        "Back/Front": "Back",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Élevée",
+        "Haute disponibilité": "Oui"
+    },
+    {
+        "Framework": "Electron",
+        "Web": "Non",
+        "Mobile": "Non",
+        "Desktop": "Oui",
+        "Taille du projet": "Grande",
+        "Back/Front": "Front",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Élevée",
+        "Haute disponibilité": "Oui"
+    },
+    {
+        "Framework": "NW.js",
+        "Web": "Non",
+        "Mobile": "Non",
+        "Desktop": "Oui",
+        "Taille du projet": "Grande",
+        "Back/Front": "Front",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Moyenne",
+        "Haute disponibilité": "Oui"
+    },
+    {
+        "Framework": "WinForms",
+        "Web": "Non",
+        "Mobile": "Non",
+        "Desktop": "Oui",
+        "Taille du projet": "Petite",
+        "Back/Front": "Front",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Moyenne",
+        "Haute disponibilité": "Oui"
+    },
+    {
+        "Framework": "Meteor",
+        "Web": "Oui",
+        "Mobile": "Non",
+        "Desktop": "Non",
+        "Taille du projet": "Moyenne",
+        "Back/Front": "Full Stack",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Élevée",
+        "Haute disponibilité": "Oui"
+    },
+    {
+        "Framework": "Ruby on Rails",
+        "Web": "Oui",
+        "Mobile": "Non",
+        "Desktop": "Non",
+        "Taille du projet": "Moyenne",
+        "Back/Front": "Back",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Moyenne",
+        "Haute disponibilité": "Oui"
+    },
+    {
+        "Framework": "Flask",
+        "Web": "Oui",
+        "Mobile": "Non",
+        "Desktop": "Non",
+        "Taille du projet": "Petite",
+        "Back/Front": "Back",
+        "Temps de réponse court": "Oui",
+        "Scalabilité": "Moyenne",
+        "Haute disponibilité": "Oui"
+    }
+]

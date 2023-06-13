@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Wizard-v1</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/raleway-font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- Jquery -->
+	<link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<div class="page-content" style="background-image: url('images/wizard-v1.jpg')">
+		<div class="wizard-v1-content">
+			<div class="wizard-form">
+				<form class="form-register" id="form-register">
+					<div id="form-total">
+						<!-- SECTION 1 -->
+						<h2>
+							<span class="step-icon"><i class="zmdi zmdi-account"></i></span>
+							<span class="step-number">Step 1</span>
+							<span class="step-text">Backend et frent-end</span>
+						</h2>
+						<section>
+							<div class="inner">
+								<form id="techForm">
+									<div class="form-row">
+										<div class="form-holder form-holder-2">
+											<label for="platform">Plateforme :</label>
+											<select id="platform" name="platform">
+												<option value="Web">Web</option>
+												<option value="Mobile">Mobile</option>
+												<option value="Desktop">Desktop</option>
+											</select>
+										</div>
+									</div>
+				
+									<div class="form-row">
+										<div class="form-holder form-holder-2">
+											<label for="projectSize">Taille du projet :</label>
+											<select id="projectSize" name="projectSize">
+												<option value="Petite">Petite</option>
+												<option value="Moyenne">Moyenne</option>
+												<option value="Grande">Grande</option>
+											</select>
+										</div>
+									</div>
+				
+									<div class="form-row">
+										<div class="form-holder form-holder-2">
+											<label for="responseTime">Temps de réponse court :</label>
+											<select id="responseTime" name="responseTime">
+												<option value="Oui">Oui</option>
+												<option value="Non">Non</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-holder form-holder-2">
+											<label for="scalability">Scalabilité :</label>
+											<select id="scalability" name="scalability">
+												<option value="Moyenne">Moyenne</option>
+												<option value="Élevée">Élevée</option>
+											</select>
+										</div>
+									</div>
+				
+									<div class="form-row">
+										<div class="form-holder form-holder-2">
+											<label for="availability">Haute disponibilité :</label>
+											<select id="availability" name="availability">
+												<option value="Non">Non</option>
+												<option value="Oui">Oui</option>
+											</select>
+										</div>
+									</div>
+				
+				
+				
+				
+								</form>
+							</div>
+						</section>
+						<!-- SECTION 2 -->
+			            <h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-card"></i></span>
+			            	<span class="step-number">Step 2</span>
+			            	<span class="step-text">La base de données </span>
+			            </h2>
+						<section>
+							<div class="inner">
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label for="natureDonnees">Quelle est la nature de vos données ?</label>
+										<select class="form-control" id="natureDonnees">
+											<option value="structured">Données structurées</option>
+											<option value="non_structured">Données non structurées</option>
+											<option value="semi_structured">Données semi-structurées</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label for="volumeDonnees">Quel est le volume de données que vous prévoyez de stocker et de traiter
+											?</label>
+										<select class="form-control" id="volumeDonnees">
+											<option value="small">Petite quantité de données</option>
+											<option value="medium">Moyenne quantité de données</option>
+											<option value="large">Grande quantité de données</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label for="exigencesPerformance">Quelles sont les exigences de performance de votre projet ?</label>
+										<select class="form-control" id="exigencesPerformance">
+											<option value="rapidite">Récupération rapide des données</option>
+											<option value="requeteComplexe">Requêtes complexes</option>
+											<option value="equilibrePerformance">Équilibrage des performances</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label for="disponibilite">Quelle est la disponibilité requise pour vos données ?</label>
+										<select class="form-control" id="disponibilite">
+											<option value="haute">Haute disponibilité</option>
+											<option value="standard">Disponibilité standard</option>
+											<option value="tolerancePannes">Tolérance aux pannes</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label for="augmentationCharge">Est-ce que votre application peut faire face à une augmentation de charge ?</label>
+										<select class="form-control" id="augmentationCharge">
+											<option value="1">Oui</option>
+											<option value="0">Non</option>
+											
+										</select>
+									</div>
+								</div>
+								
+								
+								<!--  -->
+						
+							</div>
+						</section>
+			            <!-- SECTION 3 -->
+						<h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-receipt"></i></span>
+			            	<span class="step-number">Step 3</span>
+			            	<span class="step-text">Vérification : </span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<h3>Backend et Frent-end :</h3>
+								<div class="form-row table-responsive">
+									<table class="table">
+										<tbody>
+											<tr class="space-row">
+												<th>Plateforme :</th>
+												<td id="platform-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>Taille du projet :</th>
+												<td id="projectSize-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>Exigence de performance :</th>
+												<td id="responseTime-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>Scalabilité :</th>
+												<td id="scalability-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>Haute disponibilité :</th>
+												<td id="availability-val"></td>
+											</tr>
+											<!-- Ajoutez ici les autres données que vous souhaitez afficher -->
+										</tbody>
+									</table>
+								</div>
+
+								<h3>Confirmez des infos sur la base de données  :</h3>
+								<div class="form-row table-responsive">
+									<table class="table">
+										<tbody>
+											<tr class="space-row">
+												<th>Type des données :</th>
+												<td id="natureDonnees-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>Taille des données :</th>
+												<td id="volumeDonnees-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>Exigences :</th>
+												<td id="exigencesPerformance-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>Niveau de disponibilité :</th>
+												<td id="disponibilite-val"></td>
+											</tr>
+											<tr class="space-row">
+												<th>augmentation de charge :</th>
+												<td id="augmentationCharge-val"></td>
+											</tr>
+											<!-- Ajoutez ici les autres données que vous souhaitez afficher -->
+										</tbody>
+									</table>
+								</div>
+								<button type="submit" class="btn btn-primary">Obtenir la recommandation</button>
+
+							</div>
+							
+
+			            </section>
+
+						<!-- SECTION 4 -->
+						<h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-receipt"></i></span>
+			            	<span class="step-number">Fin</span>
+			            	<span class="step-text">Resultat</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+								<h3>la recommandation du Framework frentend :</h3>
+								<div class="form-row table-responsive" id="frontendResult">
+								</div>
+
+								<h3>la recommandation du Framework backend :</h3>
+								<div class="form-row table-responsive" id="backendResult">
+								</div>
+								<h3>la recommandation de la base de données :</h3>
+								<div class="form-row table-responsive" id="recommendation">
+								</div>
+							</div>
+			            </section>
+		        	</div>
+		        </form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+	<script src="js/jquery.steps.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/script_dev.js"></script>
+	
+</body>
+</html>
